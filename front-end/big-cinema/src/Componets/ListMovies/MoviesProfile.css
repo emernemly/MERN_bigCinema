@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(245, 245, 245);
+}
+.contentCon {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.poster {
+  box-shadow: 1px 5px 10px 0px rgba(0, 0, 0, 0.15);
+  background-color: white;
+  min-height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.part-left {
+  max-width: 400px;
+}
+.part-right {
+  max-width: 600px;
+}
+.part-left img {
+  max-width: 335px;
+  padding: 20px 30px;
+}
+.part-right img {
+  max-width: 580px;
+  padding: 20px 30px 20px 0px;
+}
+.block {
+  width: 80px;
+  height: 80px;
+  background-color: rgb(225, 225, 225);
+  margin: 0px 10px 0px 0px;
+  float: left;
+}
+
+.top-text {
+  display: flex;
+  font-family: Roboto;
+  margin-top: 20px;
+  box-shadow: 1px 5px 10px 0px rgba(0, 0, 0, 0.15);
+  background-color: white;
+  min-height: 100px;
+}
+.top-text-1 {
+  width: 90%;
+  height: 100%;
+}

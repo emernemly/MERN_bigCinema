@@ -1,0 +1,19 @@
+body {
+  background-image: url("https://cdn.wallpapersafari.com/29/44/linm7I.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  flex-wrap: wrap;
+}
+
+.cards:hover {
+  box-shadow: rgb(226, 116, 7) 0px 19px 43px;
+  transform: translate3d(0px, -10px, 0px);
+}
+img:hover {
+  transition: all 0.5s cubic-bezier(0.5, 0.3, 0.1, 1);
+  transform: scale(1) rotate(5deg);
+  filter: blur(1px);
+}
